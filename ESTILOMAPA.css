@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	background-color: #C1E4CB;
+}
+
+
+
+
+.mapa{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-shadow: 5px 5px 50px #888;
+}

@@ -1,0 +1,76 @@
+@charset "utf-8";
+body header{
+   text-align: center;
+	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, 
+	"serif";
+	font-size: 20;
+}
+.texto h3{
+	background-color: #000066;
+	color: #F0EF03;
+	width: 1500px;
+	height: 125px;
+	
+	position: relative;
+	top: -45px;
+	text-align: center;
+}
+.texto{
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	position: relative;
+	top: -20  px;
+}
+.bg-warning{
+	background-color: #000066 !important;
+	color: #FFFFFF;
+}
+strong{
+	color: yellow
+ }
+.navbar-light .navbar-brand{
+	color: #FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #FFFFFF;
+}
+.navbar-light .navbar-nav-link:hover{
+	color: #000000;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand:hover{
+	color: #000000;
+}
+.carousel-caption{
+	background-color: rgba(47,47,47,0.50)
+}
+.navbar-toggler-icon{
+	color: #FFFFFF
+}
+.navbar-toggler-icon{
+    background-color: red;
+    color: rgba(249,228,10,1.00);
+}
+body{
+    background: radial-gradient(circle,white,lightsteelblue);
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 0;
+	background-attachment: fixed;
+}
+.pie01 {
+	background-color: #000066;
+	color:#FFFFFF;
+}
+.pie01 a{
+	color: #FFFFFF;
+}
+.pie01 a:hover{
+	color: #000000;
+}
+.pie02{
+	background-color: #646464; 
+	color: #F7BB0B;
+	text-align: center;
+}

@@ -1,0 +1,69 @@
+@charset "utf-8";
+#contactoform{
+	background-color: #FFFF99;
+	width: 500px;
+	padding: 20px;
+	margin-top: 50px;
+	margin-right: 120px;
+	border-radius: 20px;
+}
+#contactoform input,
+#contactoform select,
+#contactoform textarea,
+#contactoform label{
+	font-size: 15px;
+	margin-bottom: 1px;
+	font-family: Arial,sans-serif;
+	align-content: center,
+}
+#contactoform input,
+#contactoform select,
+#contactoform textarea{
+	width: 320px;
+	background-color: #C1DAF3;
+	border: 0;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	align-items: flex-end;
+}
+#contactoform input:focus,
+#contactoform select:focus,
+#contactoform textarea:focus{
+	background-color: #C1DAF3;
+}
+#contactoform textarea{
+	height: 100px;
+	width: 500px;
+}
+#contactoform #submit{
+	width: 200px;
+	color: #000000;
+	border: none;
+	background-color: #165DD9;
+	margin-left: 30%;
+}
+input:required,
+textarea:required{
+	box-shadow: none;
+}
+#failure,
+#success{
+	color: #C1DAF3;
+	display: none;
+}
+#blue{
+	background-color: aquamarine;
+	position: absolute;
+	left: 38%;
+	padding-top: 1em;
+	text-align: center;
+	width: 250px;
+	border: none;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+    }
+
+ CSS Document */

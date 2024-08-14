@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INICIO</title>
+    <!-- Bootstrap -->
+	
+	  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="stilo9.css" rel="stylesheet" type="text/css">
+  </head>
+<body style="padding-top: 70px">
+   
+		<div class="texto">
+		<h3 align="center">INSTITUTO POLIVALENTE FRANCISCO MORAZAN</h3>
+		</div>
+
+	   
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+	   
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-
+   target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" 
+   aria-label="Toggle navigation"><span class="navbar-toggler-icon">&nbsp;</span> </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+   <ul class="navbar-nav mr-auto">
+    <li class="nav-item"> <a class="nav-link" href="INDEX.html" rel="stylesheet" type="text/css">INICIO <span class="sr-only">ACERCA DE NOSOTROS</span></a></li>
+	 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+	 id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-
+	 expanded="false"> ACERCA DE NOSOTROS</a> 
+	   <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="MISIONYVISION.html">
+    MISION Y VISION</a> <a class="dropdown-item" href="HISTORIA.html">HISTORIA</a><div class="dropdown-divider"></div>
+	<a class="dropdown-item" href="SIMBOLOS.html">NUESTROS SIMBOLOS</a> 
+    <a class="dropdown-item" href="VALORES.html">VALORES QUE PRACTICAMOS</a> 
+	<a class="dropdown-item" href="EVENTOS.html">EVENTOS</a>	
+	</div>
+	   </li>
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="ACERCADENOSOTROS.html"
+	 id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-
+	 expanded="false"> EVENTOS</a> 
+	    <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="DIA DEL PADRE.html">DIA DEL PADRE
+			</a> <a class="dropdown-item" href="DIA DE LA MADRE.html">DIA DE LA MADRE</a><div class="dropdown-divider"></div>
+	<a class="dropdown-item" href="INDEPENDENCIA.html">INDEPENDENCIA</a> 
+    <a class="dropdown-item" href="ANIVERSARIO DEL INSTITUTO.html">ANIVERSARIO DEL INSTITUTO</a> 
+		 </div>
+    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" 
+	id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-
+	expanded="false"> OFERTAS ACADEMICAS </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown2"> <a class="dropdown-item" href="Contaduria.html">
+    BACHILLERATO TECNICO PROFESIONAL EN CONTADURIA Y FINANZAS</a> <a class="dropdown-item" href="Informatica.html">BACHILLERATO TECNICO PROFESIONAL  EN INFORMATICA</a><div class="dropdown-divider"></div>
+	<a class="dropdown-item" href="ADMINISTRACION.html">BACHILLERATO TECNICO PROFESIONAL EN ADMINISTRACION DE EMPRESAS</a> 
+    <a class="dropdown-item" href="CONTROL DE CALIDAD.html"> BACHILLERATO TECNICO PROFESIONAL EN CONTROL DE CALIDAD</a> 
+	<a class="dropdown-item" href="ciencias.html">BACHILLERATO TECNICO PROFESIONAL  EN CIENCIAS Y HUMANIDADES</a>	
+	</div>
+    </li>
+    <li class="nav-item"> <a class="nav-link" href="contacto.html">CONTACTENOS</a> </li>
+	 <li class="nav-item"> <a class="nav-link disable" href="PREMATRICULA.html">PREMATRICULA</a> </li>
+	   </li>
+	   </ul>
+	  
+    </div>
+
+  </nav>
+	 
+	 
+
+   
+		 <div class="container">
+        <h1 class="text-center my-4">Ficha de Matrícula 2024</h1>
+			 
+        <form action="" method="post">
+            <div class="form-section">
+                <div>
+				<title>Subir y Cambiar Foto</title>
+			<body>
+					<h1>Foto Alumno</h1>
+					<div>
+						<label for="fotoactual">Foto del Alumno:</label>
+						<img src="IMAGENES/prematricula.jpeg" alt="Foto del Alumno" class="foto-alumno">
+						
+						
+				</div>
+					
+					<form action="subir_foto.php" method="post" enctype="multipart/form-data">
+				<label for="fotonueva">Cambiar Foto:</label>
+				<input type="file" name="fotonueva" id="fotonueva" accept="imagenes/*">
+						
+				<br><br>
+				<input type="submit" value="subir nueva foto">
+				
+				
+				
+				</form>
+					
+					
+					</body>
+				
+				
+				
+				
+				
+				
+				
+				
+                <div class="mb-3">
+                    <label for="rne" class="form-label">RNE(Identidad):</label>
+                    <input type="text" id="rne" name="rne" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombres:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellidos" class="form-label">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Sexo:</label><br>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="sexoM" name="sexo" value="M" class="form-check-input" required>
+                        <label for="sexoM" class="form-check-label">M</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="sexoF" name="sexo" value="F" class="form-check-input" required>
+                        <label for="sexoF" class="form-check-label">F</label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="nacimiento" class="form-label">Lugar de Nacimiento:</label>
+                    <input type="text" id="nacimiento" name="nacimiento" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="fecha_nacimiento" class="form-label">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="departamento" class="form-label">Departamento:</label>
+                    <input type="text" id="departamento" name="departamento" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="municipio" class="form-label">Municipio:</label>
+                    <input type="text" id="municipio" name="municipio" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comunidad" class="form-label">Comunidad/Barrio/Colonia:</label>
+                    <input type="text" id="comunidad" name="comunidad" class="form-control" required>
+                </div>
+				<div class="mb-3">
+                     <label for="carrera" class="form-label">Carreras:</label>
+                     <select id="carreras" name="carreras">
+                <option value="informatica">Bachiller Tecnico Profesional en Informatica</option>
+                <option value="humanidades">Bachiller Tecnico Profesional en Ciencias y Humanidades</option>
+                <option value="admos">Bachiller Tecnico Profesional en Administracion de Empresas</option>
+                <option value="contaduria">Bachiller Tecnico Profesional en Contaduria y Finanzas</option>
+                <option value="control">Bachiller Tecnico Profesional en Control de Calidad</option>
+                <option value="Septimo_grado">Septimo</option>
+                <option value="Octavo_grado">Octavo</option>
+                <option value="Noveno_Grado">Noveno
+						 
+						 </option>
+               
+            </select>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Información del Padre, Madre o Encargado</h2>
+                <div class="mb-3">
+                    <label for="identidad_padre" class="form-label">Identidad Padre:</label>
+                    <input type="text" id="identidad_padre" name="identidad_padre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="nombre_padre" class="form-label">Nombre Completo del Padre:</label>
+                    <input type="text" id="nombre_padre" name="nombre_padre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono_padre" class="form-label">Teléfono del Padre:</label>
+                    <input type="tel" id="telefono_padre" name="telefono_padre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="identidad_madre" class="form-label">Identidad Madre:</label>
+                    <input type="text" id="identidad_madre" name="identidad_madre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="nombre_madre" class="form-label">Nombre Completo de la Madre:</label>
+                    <input type="text" id="nombre_madre" name="nombre_madre" class="form-control" required>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary print-btn" onclick="window.print()">Enviar</button>
+        </form>
+    </div>
+	  <footer>
+	  
+	  <section class="pie01">
+			  <div class="container">
+		    <div class="row">
+		      <div class="col-md-6">
+				<h3>Mapa del sitio</h3>  
+				 <dl>
+					 <dt><a href="">Inicio</a></dt>
+					 <dt><a href="">Acerca De Nosotros</a></dt>
+					 <dt><a href="">Ofertas Academica</a></dt>
+					 <dt><a href="">Contacto</a></dt>
+				     <dt><a href="">Prematricula</a></dt>
+				 </dl> 
+			  </div>
+		      
+	  
+	   <div class="col-md-6">
+			  <h3>Contactenos</h3>
+			  <adress>
+				  <div class="CASA">
+				  <img src="IMAGENES/CASA.png" width="50" alt="/">
+					  Exitos de lempira
+				    <br/>
+				  </div>
+				  
+			    <div class="TELEFONO">
+	              <img src="IMAGENES/TELEFONO.png" width="40" alt="/">
+				  <abbr title="phone">2691- 1214</abbr><br/>
+			    </div> 
+				  
+			    <div class="CORREO">
+	              <img src="IMAGENES/CORREO.png" width="40" alt="/">
+					ipfranciscomorazan@yahoo.es
+					 <a href="ipfm@yahoo.es"></a>
+				  </div>
+			    </adress>
+		    </div> 
+</div> 
+    </div>			    
+				  
+	  
+	  
+	  
+</section>
+			  
+		  <section class="pie02">
+			<div class="container">
+			  &copy; Copyright 2024 
+		    </div>  
+	      </section>
+	
+</footer>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>	
